@@ -1,1 +1,299 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike,strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+  margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+  @import '../fonts/fonts.css';
+  body{font-family: 'Roboto', sans-serif;}
+
+.bck_blue{
+  background-color: #131f66 !important;
+  color: white !important;
+}
+.color_blue{
+  color: #131f66 !important;
+}
+.bck_grey{
+  background-color: #9fa7a7 !important;
+  color: white;
+}
+.color_grey{
+  color: #aeb4b4;
+}
+.color_greyl{
+  color: #949494;
+}
+.color_gray{
+  color: #a0a0a0;
+}
+h1{
+  font-size: 60px;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 25px;
+}
+h4{
+  font-size: 22px;
+}
+button{
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid #131f66;
+}
+.p_bg{
+  font-size: 18px;
+}
+p{
+  font-size: 18px !important;
+  line-height: 1.5;
+}
+.p_md{
+  font-size: 17px !important;
+}
+.p_sm{
+  font-size: 16px !important;
+}
+.medium{
+  font-weight: 500;
+}
+.bold{
+  font-weight: 700;
+}
+.black{
+  font-weight: 900;
+}
+.regular{
+  font-weight: 300;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.capatalize{
+  text-transform: capitalize;
+}
+.mar-20{
+  margin-top: 42px;
+}
+.pad-260{
+  padding-top: 260px;
+  padding-bottom: 260px;
+}
+.pad-130{
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+a .bck_blue:hover{
+  background-color: white !important;
+  border: 1px solid #131f66 !important;
+  color: #131f66 !important;
+  font-weight: 500;
+}
+/* ====================================== Header ================================================ */
+header a{
+  color: #9fa7a7 !important;
+}
+header a:hover{
+  color: #131f66 !important;
+}
+/* ====================================== Banner ================================================ */
+.banner{
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+}
+.banner .owl-dot span{
+  background-color: transparent !important;
+  border: 1px solid white;
+}
+.banner .active span{
+  background-color: white !important;
+  border: 1px solid white;
+}
+/* ====================================== hire Section ================================================ */
+.hire button{
+  border: 2px solid white;
+}
+a .bck_grey:hover{
+  background-color: white !important;
+  border: 1px solid #9fa7a7 !important;
+  color: #9fa7a7 !important;
+  font-weight: 500;
+}
+/* ====================================== About US ================================================ */
+/* ====================================== Approch ================================================ */
+.approach{
+  background-image: url('../images/approch.png');
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white ;
+}
+.approach div{
+  width: 50%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.approach div p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+/* ====================================== Services ================================================ */
+/* ====================================== Testimonial ================================================ */ 
+.testimonial{
+  background-image: url('../images/testimonialBack.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.testimonial img{
+  width: 120px !important;
+}
+.testimonial .owl-dot span{
+  background-color: #8a8889 !important;
+  border: 2px solid #8a8889;
+}
+.testimonial .active span{
+  background-color: transparent !important;
+  border: 2px solid white;
+}
+/* ====================================== SignUp ================================================ */
+.signup input{
+  width: 70%;
+  padding: 16px 10px;
+  border: 1px solid #ebebeb !important;
+}
+.signup input:focus{
+  outline: none !important;
+}
+.signup button{
+  margin-top: 5px;
+}
+/* ====================================== Footer ================================================ */
+.footer{
+  background-color: #242424;
+  color: #a0a0a0 !important;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+.footer a{
+  color: #a0a0a0 !important;
+}
+.footer a:hover{
+  color: #a0a0a0 !important;
+  text-decoration: none;
+  color: white !important;
+}
+.footer hr{
+  background-color: #a0a0a0 !important;
+  margin-top: 110px;
+}
+.bottom li{
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #757575 !important;
+  border-radius: 30px !important;
+}
+/* ====================================== Media Queries ================================================ */ 
+@media screen and (max-width:1200px){
+  header a{
+    font-size: 14px !important;
+  }
+  h1{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  .approach div{
+    width: 40%;
+  }
+  
+}
+@media screen and (max-width:992px){
+  .approach{
+    background: none;
+    background-color: #131f66 !important;
+  }
+  .approach div{
+    width: 100%;
+  }
+  .approach div p{
+    width: 90%;
+  }
+}
+@media screen and (max-width:768px){
+  .banner{
+    background-image: linear-gradient(to right, #3e4f59, #a0b6c1);
+  }
+  .approach{
+    background: none;
+    background-color: #131f66 !important;
+  }
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  .mar-20{
+    margin-top: 10px;
+  }
+  .pad-260{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .pad-130{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .footer hr{
+    background-color: #a0a0a0 !important;
+    margin-top: 40px;
+  }
+  p{
+    font-size: 15px !important;
+  }
+  .approach div{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+}
+@media screen and (max-width:576px){
+  header img{
+    width: 200px;
+  }
+  .signup input{
+    width: 100%;
+  }
+  .signup button{
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  h3{
+    font-size: 23px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  .approach{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 
